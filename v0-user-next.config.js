@@ -7,8 +7,13 @@ const nextConfig = {
         hostname: "flagsapi.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "www.freetogame.com", // <-- Hinzufügen!
+        pathname: "**",
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
