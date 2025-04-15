@@ -24,7 +24,7 @@ export function GameDetailsClient({ game }: GameDetailsClientProps) {
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div className="lg:col-span-2">
         <div className="relative w-full rounded-lg overflow-hidden aspect-video mb-6">
-          <Image src={game.thumbnail || "/placeholder.svg"} alt={game.title} fill className="object-cover" priority />
+          <Image src={game.thumbnail || "/placeholder.svg"} alt={game.title} fill className="object-cover" loading="eager" />
         </div>
 
         <GameScreenshots screenshots={game.screenshots || []} />
