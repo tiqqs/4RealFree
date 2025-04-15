@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "4RealFree - Free Games",
   description: "Discover the best free-to-play games for PC and browser",
-    generator: 'v0.dev'
+  //generator: 'v0.dev'
 }
 
 export default function RootLayout({
